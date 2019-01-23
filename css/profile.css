@@ -1,0 +1,214 @@
+*{ font-family: 'Siyam Rupali' 'The Times New Roman';
+    src: url('https://bits.wikimedia.org/static-current/extensions/UniversalLanguageSelector/data/fontrepo/fonts/SiyamRupali/SiyamRupali.eot?version=1.070');
+    src: local('Siyam Rupali'),     url('https://bits.wikimedia.org/static-current/extensions/UniversalLanguageSelector/data/fontrepo/fonts/SiyamRupali/SiyamRupali.woff?version=1.070') format('woff'),        url('https://bits.wikimedia.org/static-current/extensions/UniversalLanguageSelector/data/fontrepo/fonts/SiyamRupali/SiyamRupali.ttf?version=1.070') format('truetype');
+    font-style: normal;}
+
+body {
+    /*
+background-image: url('../img/b.png');
+background-attachment: fixed;
+background-size: 100% 100%;
+min-width: 10%; */
+background-color: #eeeeee;
+}
+
+/* CSS for Header */
+.header{
+    overflow: hidden;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    border-top: solid 1px #555555;
+    border-bottom: solid 2px #555555;
+    box-shadow:  0 0 10px  rgba(0,0,0,0.7);
+    background-color: #e44d3a;
+    color: white;
+  
+}
+
+
+.header_container{
+    width: 100%;
+    height: 70px;
+    overflow: hidden;
+}
+
+.header_info_left{
+    float: left;
+    width: 30%;
+}
+
+.header_info_right{
+    float: left;
+    width: 70%;
+}
+
+.header_logo{
+    margin-left: 1%;
+    margin-top: 0.5%;
+    overflow: hidden;
+    width: 10%;
+    height: 10%;
+}
+
+
+.header_down{
+  margin-top: 3.2%;
+  width: 100%;
+}
+
+.header_info_right nav{
+    margin-top: 1%;
+}
+
+.header_info_right nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+.header_info_right nav li {
+    float: left;
+}
+
+.header_info_right nav li:last-child {
+    border-right: none;
+}
+
+.header_info_right nav li a {
+    display: block;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    transition:.5s;
+    margin-top: 6%;
+    border-right: 1px solid gray;
+}
+
+.header_info_right nav li:hover {
+    background-color: rgba(198,29,29);
+    color: white;
+    border-radius: 50px 25px;
+    text-decoration: underline;
+}
+
+/* END of the Header */
+
+
+/*---------------------------------------------------------------*/
+
+
+/* Side bar */
+.nav_div nav{
+    margin-top: 1%;
+}
+
+.nav_div nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+.nav_div nav li {
+    text-decoration: none;
+}
+
+.nav_div nav li:last-child {
+    border-right: none;
+}
+
+.nav_div nav li a {
+    display: block;
+    color: black;
+    font-size: 18px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition:.5s;
+    border-bottom: solid 0.5px;
+    border-color: #E0E0E0;
+}
+
+.nav_div nav li a:hover {
+    background-color: rgba(224,224,224);
+    color: #e44d3a;
+   /* border-radius: 50px 25px;  */
+}
+
+.nav_div nav li a:active {
+    background-color: rgba(224,224,224);
+    color: #e44d3a;
+   /* border-radius: 50px 25px;  */
+}
+/* END of Side bar */
+
+
+
+.container{
+    overflow: hidden;
+    margin-top: 3%;
+    width: 100%;
+}
+
+.left_side_bar{
+    float: left;
+    width: 15%;
+    margin-bottom: 3%;
+    margin-top: 3%;
+    margin-left: 3%;
+    border: solid 1px #555555;
+    background-color: white;
+    box-shadow:  0 0 10px  rgba(0,0,0,0.7);
+}
+
+.side_bar_header{
+    width: 100%;
+    height: 10%;
+    background-color: #e44d3a;
+}
+
+.image_holder{
+    width: 120px;
+    height: 120px;
+    margin: auto;
+}
+
+.main_info{
+    overflow: hidden;
+    float: left;
+    width: 78%;
+    margin-left: 1%;
+    margin-bottom: 3%;
+    margin-top: 3%;
+    border: solid 1px #555555;
+    background-color: transparent;
+
+    box-shadow:  0 0 10px  rgba(0,0,0,0.7);
+}
+
+#about_me{
+    margin:4% 4% 1% 2%;
+    
+}
+
+#about_me table{
+    width: 60%;
+    font-size: 18px;
+    line-height: 2;
+    margin-left: 5%;
+    table-layout: fixed;
+}
+
+#about_me table tbody tr th{
+    float: left;
+}
+
+#about_me table tbody tr td{
+    margin-left: 5%;
+}

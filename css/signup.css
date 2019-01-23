@@ -1,0 +1,137 @@
+body{
+    background-color: #C0C0C0;
+}
+
+.header{
+    overflow: hidden;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    border-top: solid 1px #555555;
+    border-bottom: solid 2px #555555;
+    box-shadow:  0 0 10px  rgba(0,0,0,0.7);
+    background-color: #e44d3a;
+    color: white;
+}
+
+.header_container{
+    width: 100%;
+    height: 70px;
+}
+
+.header_info{
+    float: left;
+    width: 50%;
+}
+
+.header_logo{
+    margin-left: 1%;
+    margin-top: 0.5%;
+    overflow: hidden;
+    width: 8%;
+    height: 8%;
+}
+
+.container{
+    overflow: hidden;
+    margin-top: 7%;
+	margin-bottom: 3%;
+	font-family: Adorsholipi;
+	border: solid 1px #555555;
+			background-color: white;
+			box-shadow:  0 0 10px  rgba(0,0,0,0.7);
+}
+
+.info_div{
+    padding-right: 100px;
+	margin-top: 50px;
+	margin-bottom: 80px;
+    width: 100%;
+}
+
+.reg_info{
+    float: left;
+    width: 40%;
+}
+
+.form_fieldset{
+    border-color: #0080FF;
+    border-width: 2px;
+    width: 70%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+
+.form_legend{
+    padding-top: 15px;
+    height: 30px;
+    border-color: black;
+    border:2px solid #0080FF;
+}
+
+input[type=text], input[type=password], .home_dis_dropdown {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    background: #f1f1f1;
+    box-sizing: border-box;
+    border-color: black;
+}
+.dropdown{
+    width: 32%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    background: #f1f1f1;
+    box-sizing: border-box;
+    border-color: black;
+    border:2px solid black;
+}
+
+ input[type=Date]{
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    background: #f1f1f1;
+    border-color: black;
+    font-size: 15px;
+ }
+
+ .button {
+    background-color: #FF3333; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: 35%;
+    margin-top: 5%;
+}
+
+.button:hover{
+    transform: scale(1.1);
+}
+
+.img_div{
+    margin-right: 80px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+.signup_image{
+    width: 100%;
+    height: 100%;
+}
+
+.row_div{
+    overflow: hidden;
+    min-width: 50%;
+    width: 100%;
+}
+
+.col_div{
+    float: left;
+    width: 50%;
+}

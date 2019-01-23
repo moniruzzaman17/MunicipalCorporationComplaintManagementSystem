@@ -1,0 +1,91 @@
+*{ font-family: 'Siyam Rupali' 'The Times New Roman';
+    src: url('https://bits.wikimedia.org/static-current/extensions/UniversalLanguageSelector/data/fontrepo/fonts/SiyamRupali/SiyamRupali.eot?version=1.070');
+    src: local('Siyam Rupali'),     url('https://bits.wikimedia.org/static-current/extensions/UniversalLanguageSelector/data/fontrepo/fonts/SiyamRupali/SiyamRupali.woff?version=1.070') format('woff'),        url('https://bits.wikimedia.org/static-current/extensions/UniversalLanguageSelector/data/fontrepo/fonts/SiyamRupali/SiyamRupali.ttf?version=1.070') format('truetype');
+    font-style: normal;}
+
+/* CSS for Header */
+.header{
+    overflow: hidden;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    border-top: solid 1px #555555;
+    border-bottom: solid 2px #555555;
+    box-shadow:  0 0 10px  rgba(0,0,0,0.7);
+    background-color: #e44d3a;
+    color: white;
+  
+}
+
+
+.header_container{
+    width: 100%;
+    height: 70px;
+    overflow: hidden;
+}
+
+.header_info_left{
+    float: left;
+    width: 20%;
+}
+
+.header_info_right{
+    float: left;
+    width: 80%;
+}
+
+.header_logo{
+    margin-left: 1%;
+    margin-top: 3.5%;
+    overflow: hidden;
+    width: 20%;
+    height: 10%;
+}
+
+
+.header_down{
+  margin-top: 3.2%;
+  width: 100%;
+}
+
+.header_info_right nav{
+	margin-top: 1%;
+}
+
+.header_info_right nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+.header_info_right nav li {
+    float: left;
+}
+
+.header_info_right nav li:last-child {
+    border-right: none;
+}
+
+.header_info_right nav li a {
+    display: block;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    transition:.5s;
+    margin-top: 6%;
+    border-right: 1px solid gray;
+}
+
+.header_info_right nav li:hover {
+    background-color: rgba(198,29,29);
+    color: white;
+    border-radius: 50px 25px;
+    text-decoration: underline;
+}
+
+
+/* END of the Header */

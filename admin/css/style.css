@@ -1,0 +1,74 @@
+.img_div_admin{
+	width: 120px;
+	height: 101px;
+	margin-left: 10%;
+}
+.admin_image{
+	width: 100%;
+	height: 100%;
+}
+
+input[type=text]{
+    width: 100%;
+    padding: 10px;
+    margin: 25px 0 22px 0;
+    background: #f1f1f1;
+    box-sizing: border-box;
+    border-style: none;
+    border: 1px solid gray;
+    text-align: center;
+}
+
+.update_btn{
+	border:1px solid gray;
+	background-color: #e44d3a;
+	padding: 3% 10% 3% 10%;
+	color: white;
+	cursor: pointer;
+}
+
+.user_table, .admin_info_table {
+		width: 100%!important; 
+		table-layout: fixed!important; 
+		margin-left: -3%!important; 
+}
+
+.user_table td, .admin_info_table td, .user_table th, .admin_info_table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.user_table tr:nth-child(even){background-color: #f2f2f2;}
+.admin_info_table tr:nth-child(even){background-color: #f2f2f2;}
+
+.user_table tr:hover {background-color: #ddd;}
+.admin_info_table tr:hover {background-color: #ddd;}
+
+.user_table th, .admin_info_table th {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: left;
+    background-color: rgba(255,99,71,0.4);
+    color: black;
+    text-align: center;
+    border:1px solid black;
+}
+
+.user_active_btn, .user_deactive_btn{
+	border:none; 
+	background-color: transparent; 
+	color: blue; 
+	text-decoration: underline; 
+	cursor: pointer;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.user_active_btn:hover, .user_deactive_btn:hover {
+	transform: scale(1.5);
+	text-decoration: none;
+}
+
+.de_post:hover{
+	transform: scale(1.2)!important;
+}
